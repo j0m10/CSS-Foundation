@@ -60,7 +60,7 @@ img {
 
 .hero-section {
   height: 100vh;
-  background-image: url("../image/hero-bg.jpg");
+  background-image: url("../Images/hero-bg.jpg");
   background-position: center;
   background-size: cover;
   display: flex;
