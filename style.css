@@ -49,6 +49,7 @@ img {
 
 .navbar a {
   color: #fff;
+  font-size: 20px;
   text-decoration: none;
   transition: 0.2s ease;
   font-weight: 50px;
