@@ -135,6 +135,23 @@ footer a {
 
 }
 
+@media (max-width: 480px) {
+  header {
+    padding: 10px;
+  }
+
+  header.show-mobile-menu::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+
+  
+}
+
 @media (max-width: 768px) {
   header {
     padding: 10px;
@@ -148,9 +165,22 @@ footer a {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(5px);
-  
 
+    }
 
+@media (max-width: 1024px) {
+  header {
+    padding: 10px;
+  }
+
+  header.show-mobile-menu::before {
+    content: "";
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
 
   } 
 
