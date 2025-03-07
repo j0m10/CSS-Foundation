@@ -36,10 +36,10 @@ img {
   font-size: 2.1rem;
   text-decoration: none;
 } 
-
+/*
 .navbar .logo span {
   color: #fff;
-}
+} */
 
 .navbar .menu-links {
   display: flex;
@@ -155,6 +155,12 @@ footer a {
   width: 22%;
   
 }
+  nav.navbar img {
+
+  height:50%;
+  width:50%;
+}
+
 
 @media (max-width: 768px) {
   header {
@@ -171,6 +177,12 @@ footer a {
     backdrop-filter: blur(5px);
 
     }
+  nav.navbar img {
+
+  height:50%;
+  width:50%;
+}
+
 
 @media (max-width: 1024px) {
   header {
