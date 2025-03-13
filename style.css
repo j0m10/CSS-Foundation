@@ -54,6 +54,7 @@ img {
   transition: 0.2s ease;
   font-weight: 50px;
    background: gray;
+   border-radius: 6px;
 }
 
 .navbar a:hover {
