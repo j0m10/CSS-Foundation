@@ -45,6 +45,7 @@ img {
   display: flex;
   list-style: none;
   gap: 33px;
+  background; gray;
 }
 
 .navbar a {
