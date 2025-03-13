@@ -45,15 +45,15 @@ img {
   display: flex;
   list-style: none;
   gap: 33px;
-  background; gray;
 }
 
 .navbar a {
   color: #fff;
-  font-size: 15px;
+  font-size: 18px;
   text-decoration: none;
   transition: 0.2s ease;
   font-weight: 50px;
+   background: gray;
 }
 
 .navbar a:hover {
